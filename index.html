@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <title>todo</title>
+  </head>
+  <body>
+    <h2>todo</h2>
+    <div id="input" class="hidden">
+      <textarea id="inputBox" rows=4 placeholder="Add tasks separated by newlines"></textarea>
+      <button onclick="saveInput()">Update Tasks</button>
+    </div>
+    <div id="main">
+      <button onclick="restart()">Restart</button>
+      <p id="task"></p>
+      <button onclick="done()">Done</button>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
